@@ -1,7 +1,7 @@
 // import React from 'react';
 import node from "../../assets/node.png"
 import firebase from "../../assets/firebase.png"
-import java from "../../assets/java.jpg";
+import java from "../../assets/java.png";
 import mysql from "../../assets/mysql.png";
 import springboot from "../../assets/springboot.png";
 import mongodb from "../../assets/mongodb.png";
