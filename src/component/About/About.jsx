@@ -1,7 +1,7 @@
 // import React from 'react';
 import { motion } from "framer-motion";
 import "../About/about.css"
-import photo from "../../assets/photo.jpg";
+import photo from "../../assets/photo1.jpg";
 import resume from "../../assets/Lalit_Resume.pdf"
 
 export default function About() {

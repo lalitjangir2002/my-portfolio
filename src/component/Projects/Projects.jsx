@@ -1,7 +1,7 @@
 // import React from 'react'
 import "../Projects/projects.css";
 import { Tilt } from "react-tilt";
-import project1 from "../../assets/work1.jpg"
+import project1 from "../../assets/bg.jpg"
 import project2 from "../../assets/work2.jpg"
 import project3 from "../../assets/work3.jpg"
 
@@ -19,10 +19,10 @@ return (
     <div className="tilt-cards-container">
     <Tilt className="tilt-card" style={{backgroundImage:`url(${project1})`,backgroundSize:'cover',backgroundPosition: 'center'}} options={tiltOptions}>
         <div className="tilt-card-content">
-        <h2>Weather App</h2>
+        <h2>Civil Service Society</h2>
             <div className="button-container">
-            <button className="custom-button"><a href="https://github.com/lalitjangir2002/Weather-App.github.io" target="_blank" rel="noreferrer">Github</a></button>
-            <button className="custom-button"><a href="https://lalitjangir2002.github.io/Weather-App.github.io/" target="_blank" rel="noreferrer">Demo</a></button>
+            <button className="custom-button"><a href="https://github.com/CSS-NITA/officialWebsite" target="_blank" rel="noreferrer">Github</a></button>
+            <button className="custom-button"><a href="https://css-nita.netlify.app/" target="_blank" rel="noreferrer">Demo</a></button>
         </div>
         </div>
     </Tilt>
