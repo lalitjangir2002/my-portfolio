@@ -51,6 +51,25 @@
     color: var(--title-color-dark);
 }
 
+.tilt-cards-container a{
+    padding: 10px;
+    color: #ccc;
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.tilt-cards-container a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.tilt-cards-container a i:hover{
+    transform: translateX(0.25rem);
+}
+
 @media screen and (max-width:992px) {
     .tilt-card {
         width: 250px;

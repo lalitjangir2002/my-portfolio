@@ -47,6 +47,8 @@ return (
             </div>
         </div>
     </Tilt>
+
+    <a href="https://github.com/lalitjangir2002?tab=repositories" target="_blank" alt="See More"><i className="bx bx-right-arrow-alt contact-button-icon" ></i> </a>
     </div>
 </section>
 )
