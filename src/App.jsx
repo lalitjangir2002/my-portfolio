@@ -11,20 +11,15 @@ import ScrollUp from './component/Scrollup/ScrollUp';
 import { motion } from 'framer-motion';
 import { useRef} from 'react';
 import { useFollowPointer } from './Use_Follow_Pointer';
+import Particle from './component/Particle';
 
 function App() {
   const ref = useRef(null);
   const { x, y } = useFollowPointer(ref);
 
-//   const [light,setLight] = useState(false);
-//   const toggleDarkMode = () =>{
-//     setLight(!light);
-// }
-
   return (
-    // <div className={`App ${light ? 'dark-mode' : 'light-mode'}`}>
     <div>
-    {/* <Header toggleDarkMode={toggleDarkMode}/> */}
+     <Particle/>
     <Header/>
     <main className='main'>
     <Home/>
