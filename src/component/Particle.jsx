@@ -277,7 +277,7 @@ const particlesLoaded = useCallback(async container => {
               },
               "decay": 0,
               "distance": {},
-              "direction": "right",
+              "direction": "bottom",
               "drift": 0,
               "enable": true,
               "gravity": {
@@ -303,7 +303,7 @@ const particlesLoaded = useCallback(async container => {
               },
               "random": false,
               "size": false,
-              "speed": 5,
+              "speed": 0.5,
               "spin": {
                 "acceleration": 0,
                 "enable": false
@@ -334,7 +334,7 @@ const particlesLoaded = useCallback(async container => {
               "animation": {
                 "count": 0,
                 "enable": false,
-                "speed": 2,
+                "speed": 1,
                 "decay": 0,
                 "delay": 0,
                 "sync": false,
@@ -564,7 +564,7 @@ const particlesLoaded = useCallback(async container => {
                 "value": 40
               },
               "move": {
-                "speed": 10,
+                "speed": 1,
                 "outModes": {
                   "default": "none",
                   "right": "destroy"
@@ -581,7 +581,7 @@ const particlesLoaded = useCallback(async container => {
                 },
                 "animation": {
                   "enable": true,
-                  "speed": 10,
+                  "speed": 1,
                   "sync": true
                 }
               }
