@@ -1,28 +1,27 @@
 .about-container{
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 4rem;
-}
-
-.about-img{
-    width: 450px;
-    border-radius: 1.5rem;
-    justify-self: center;
+    /* width: 100vw; */
+    gap: 2rem;
 }
 
 .about-description{
-    padding: 0 4rem 0 0;
+    padding: 0 4rem;
+    font-size: 20px;
     margin-bottom: var(--mb-2-5);
+    color: #9e9e9e;
+    /* text-align: center; */
+}
+
+.about-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 992px) {
     .about-container{
-        grid-template-columns: 1fr;
-        row-gap: 2.5rem;
-    }
-
-    .about-img{
-        width: 220px;
+        flex-direction: column;
+        gap: 2.5rem;
     }
 
     .about-data{

@@ -1,4 +1,3 @@
-// import React from 'react';
 import "../Qualification/education.css";
 import {motion} from "framer-motion";
 
@@ -25,20 +24,22 @@ return (
 
             <div className="education-sections">
                 <div className="education-content">
+                    {/* Bachelors in Technology */}
                     <div className="education-data">
                         <div>
                             <span className="education-rounder"></span>
                             <span className="education-line"></span>
                         </div>
                         <div>
-                            <h3 className="education-title">10th</h3>
-                            <span className="education-subtitle">Kerala Public School</span>
+                            <h3 className="education-title">Bachelors in Technology</h3>
+                            <span className="education-subtitle">National Institute of Technology Agartala</span>
                             <div className="education-calender">
-                                <i className="uil uil-calendar-alt"></i>2017-2018
+                                <i className="uil uil-calendar-alt"></i>2021-Present
                             </div>
                         </div>
                     </div>
 
+                    {/* 12th */}
                     <div className="education-data">
                         <div>
                             <span className="education-rounder"></span>
@@ -54,17 +55,18 @@ return (
                         </div>
                     </div>
 
+                    {/* 10th */}
                     <div className="education-data">
                         <div>
                             <span className="education-rounder"></span>
-                            <span className="education-line"></span>
+                            {/* <span className="education-line"></span> */}
                         </div>
 
                         <div>
-                            <h3 className="education-title">Bachelors in Technology</h3>
-                            <span className="education-subtitle">National Institute of Technology Agartala</span>
+                            <h3 className="education-title">10th</h3>
+                            <span className="education-subtitle">Kerala Public School</span>
                             <div className="education-calender">
-                                <i className="uil uil-calendar-alt"></i>2021-Present
+                                <i className="uil uil-calendar-alt"></i>2017-2018
                             </div>
                         </div>
                     </div>

@@ -57,7 +57,7 @@ return (
         </svg>
         </h1>
         <h3 className='home-subtitle'>WEB DEVELOPER</h3>
-        <p className='home-description'>I am a pre-final year Computer Science Engineering Student at NIT Agartla and I am enthusiastic about new Tech Skills and love to create fully functional Web Apps.</p>
+        <p className='home-description'>I am a final year Computer Science Engineering Student at NIT Agartla and I am enthusiastic about new Tech Skills and love to create fully functional Web Apps.</p>
 
         <motion.a
         whileHover={{scale:1.1}}

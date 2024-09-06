@@ -7,6 +7,7 @@ import Education from './component/Qualification/Education';
 import Projects from './component/Projects/Projects';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
+import WorkExperience from './component/work/WorkExperience';
 import ScrollUp from './component/Scrollup/ScrollUp';
 import { motion } from 'framer-motion';
 import { useRef} from 'react';
@@ -27,6 +28,7 @@ function App() {
     <Skills/>
     <Education/>
     <Projects/>
+    <WorkExperience/>
     <Contact/>
     </main>
     <Footer/>

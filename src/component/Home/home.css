@@ -20,8 +20,16 @@
     color: var(--title-color);
 }
 
-.home-social-icon:hover{
-    color: var(--title-color-dark);
+.home-social-icon:hover:first-child{
+    color: #2bb8e3;
+}
+
+.home-social-icon:hover:nth-child(2){
+    color: #267efa;
+}
+
+.home-social-icon:hover:last-child{
+    color: #fefefe;
 }
 
 .home-title{

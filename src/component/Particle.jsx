@@ -327,7 +327,7 @@ const particlesLoaded = useCallback(async container => {
                 "mode": "delete",
                 "value": 0
               },
-              "value": 200
+              "value": 125
             },
             "opacity": {
               "value": 1,

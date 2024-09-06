@@ -19,11 +19,14 @@ return (
         <span className="section-subtitle">My Introduction</span>
 
         <div className="about-container container grid">
-            <img src={photo} alt="about photo" className="about-img"/>
+            {/* <img src={photo} alt="about photo" className="about-img"/> */}
 
             <div className="about-data">
                 <p className="about-description">
-                    I am a Student who is pursuing his B.Tech in Computer Science and Engineering from NIT Agartala.I am passionate about learning new Tech Skills and also love to work on frontened as well as Backened.I am enthusiastic for learning Full Stack Java Developement.
+                I am currently pursuing a B.Tech in Computer Science and Engineering at NIT Agartala, where I am deeply engaged in expanding my technical skills. I have a strong passion for both front-end and back-end development and am particularly enthusiastic about Full Stack Java Development.
+                </p>
+                <p className="about-description">
+                I am committed to continuous learning and excited about applying my knowledge to create dynamic and scalable web applications. My goal is to leverage my skills in both client-side and server-side development to contribute effectively in the field of software engineering.
                 </p>
 
                 <motion.a
