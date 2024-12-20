@@ -1,8 +1,9 @@
-import "../Qualification/education.css";
+import React from "react";
+import "./education.css";
 import {motion} from "framer-motion";
 
-export default function Education() {
-return (
+function Education() {
+  return (
     <motion.section
     variants={{
         hidden : {opacity:0,y:60},
@@ -74,5 +75,7 @@ return (
             </div>
         </div>
     </motion.section>
-)
+  );
 }
+
+export default Education;

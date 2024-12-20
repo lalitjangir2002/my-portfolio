@@ -65,7 +65,7 @@ export default function Contact() {
               <span className="contact-card-data">9929789055</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello,more information!"
+                href="https://api.whatsapp.com/send?phone=9929789055&text=Hello,more information!"
                 className="contact-button"
               >
                 Write me{" "}

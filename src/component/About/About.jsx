@@ -23,7 +23,7 @@ return (
 
             <div className="about-data">
                 <p className="about-description">
-                I am currently pursuing a B.Tech in Computer Science and Engineering at NIT Agartala, where I am deeply engaged in expanding my technical skills. I have a strong passion for both front-end and back-end development and am particularly enthusiastic about Full Stack Java Development.
+                I am currently pursuing B.Tech in Computer Science and Engineering at NIT Agartala, where I am deeply engaged in expanding my technical skills. I have a strong passion for both front-end and back-end development and particularly enthusiastic about Full Stack Java Development.
                 </p>
                 <p className="about-description">
                 I am committed to continuous learning and excited about applying my knowledge to create dynamic and scalable web applications. My goal is to leverage my skills in both client-side and server-side development to contribute effectively in the field of software engineering.
@@ -32,7 +32,7 @@ return (
                 <motion.a
                 whileHover={{scale:1.1}}
                 transition={{type:'spring',stiffness:500}}
-                href={resume} download="" className="button button-flex">Download Resume
+                href={resume} download="" className="button button-flex" target="_blank">Download Resume
                 <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
